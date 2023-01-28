@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0 8px 8px;
+}
+.grid {
+  /* display: flex; */
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border-radius: 6px;
+  border: solid 1.2px cornflowerblue;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
